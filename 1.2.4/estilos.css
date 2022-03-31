@@ -1,0 +1,56 @@
+body{
+    padding: 0;
+    margin: 0;
+    background: black;
+}
+.div1{
+    padding: 0;
+    margin-left: 150px;
+    margin-right: 80px;
+    font-family: sans-serif;
+    /*margin: 30px; */
+    background: red;
+    padding: 80px;
+}
+.div2{
+    padding: 0;
+    margin-left: 150px;
+    margin-right: 80px;
+    font-family: sans-serif;
+    /* margin: 30px; */
+    background: lightseagreen;
+    padding: 80px;
+}
+.div3{
+    padding: 0;
+    margin-left: 150px;
+    margin-right: 80px;
+    font-family: sans-serif;
+    /* margin: 30px; */
+    background: yellow;
+    padding: 80px;
+}
+.div4{
+    padding:0;
+    margin-left: 150px;
+    margin-right: 80px;
+    font-family: sans-serif;
+    /* margin: 30px; */
+    background: orange;
+    padding: 80px;
+}
+
+header{
+    padding: 0;
+    margin: 0;
+    color: beige;
+}
+.menu-nav__item a:hover {
+    background-color: beige;
+    
+}
+.menu{
+
+    position: fixed; /*esto se usa para mover la posicion de nuestras cajas*/
+    left: 10px; 
+}
