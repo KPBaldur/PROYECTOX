@@ -11,40 +11,77 @@
       .card-text{
         color: black;
       }
+
+      body{
+        background-color: #4b6982;
+      }
+      header, main{
+        background-color: #70c6c7;
+      }
+
+      footer{
+        background-color: #b4ffd8;
+      }
+
+      .container{
+        color: black
+      }
+
+      button{
+        text-decoration:none;
+        padding: 4px; 
+        font-weight: 400; 
+        font-size: 20px; 
+        color:#ffff; 
+        background-color:#4b6982; 
+        border-radius: 6px; 
+        border: 2px solid #0016b0;
+      }
+
+      button:hover{
+        color: #1883ba;
+        background-color: #fff;
+      }
+      
+      li{
+        color: #4b6982;
+      }
+
+      li:hover{
+        color: #fff;
+      }
+        
+
     </style>
 </head>
-<body class="d-flex h-100 text-center text-white bg-dark">
+<body class="d-flex h-100 text-center text-white ">
   <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
-    <header class="p-3 bg-dark text-white">
+    <header class="p-3">
         <div class="container">
-            <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
-            <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
-                <svg class="bi me-2" width="40" height="32" role="img" aria-label="Bootstrap"><use xlink:href="#bootstrap"></use></svg>
-            </a>
+            <div style="background-color: #b4ffd8; margin-left: 0px; margin-right: 0px;" class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+            <a href="/" class="d-flex align-items-center mb-2 mb-lg-0  text-white text-decoration-none"></a>
             
             <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
-                <li><a href="FundacionRescata.html" class="nav-link px-2 text-secondary">Inicio</a></li>
-                <li><a href="album.html" class="nav-link px-2 text-white">Album de Fotos</a></li>
-                <li><a href="about.html" class="nav-link px-2 text-white">Sobre Nosotros</a></li>
+                <li><a style="color: #ccc;" href="FundacionRescata.html" class="nav-link px-2">Inicio</a></li>
+                <li><a style="color: #1A374D;" href="album.html" class="nav-link px-2">Album de Fotos</a></li>
+                <li><a style="color: #1A374D;" href="about.html" class="nav-link px-2">Sobre Nosotros</a></li>
             </ul>
             
                 <div class="text-end">
-                  <button type="button" href="about.html" class="btn btn-warning">Donaciones</button>
+                  <a class="btn btn-primary" href="Donaciones.html" role="button">Donaciones</a>
                 </div>
             </div>
         </div>
       
         
       <main class="px-3">
-        <h1>Adoptame!</h1>
-        <p class="lead">Nuestra nueva iniciativa para adoptar y entregar perros y gatos callejeros. 
-        Nuestra motivacion es poder dar un hogar a cada uno de nuestros cachorros y mininos.</p>
+        <img class="lead" src="img/ong.png" height="150">
         <p class="lead">
-            <button type="button" class="btn btn-warning">Leer mas</button>
+            <button href="about.html" type="button">Leer mas</button>
         </p>
       </main>
 
-      <div class="album py-5 bg-dark">
+      <div class="album py-5 border-top">
         <div class="container">
           <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
             <div class="col">
@@ -64,7 +101,7 @@
             </div>
            
             <div class="col">
-              <div class="card shadow-sm">
+              <div class="card ">
                 <img src="img/gatosiames.jpg" height="225">
                 <!-- <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg> -->
     
@@ -101,54 +138,50 @@
       </div>
     </header>
 
-    <footer>
-      <footer class="row row-cols-5 py-5 my-5 border-top">
-        <div class="col">
-          <a href="/" class="d-flex align-items-center mb-3 link-dark text-decoration-none">
-            <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
-          </a>
-          <p class="text-muted">© 2021</p>
-        </div>
-    
-        <div class="col">
-    
-        </div>
-    
-        <div class="col">
-          <h5>Section</h5>
-          <ul class="nav flex-column">
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
-          </ul>
-        </div>
-    
-        <div class="col">
-          <h5>Section</h5>
-          <ul class="nav flex-column">
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
-          </ul>
-        </div>
-    
-        <div class="col">
-          <h5>Section</h5>
-          <ul class="nav flex-column">
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
-          </ul>
-        </div>
-      </footer>
+    <main class="px-3 border-top">
+      <h1>Adoptame!</h1>
+      <p class="lead">Nuestra nueva iniciativa para adoptar y entregar perros y gatos callejeros. 
+      Nuestra motivacion es poder dar un hogar a cada uno de nuestros cachorros y mininos.</p>
+      <img src="img/mascotafamiliar.jpg" height="500">
+      <br><br>
+      <p class="lead">
+          <button type="button">Leer mas</button>
+      </p>
+
+
+      <footer>
+        <footer class="px-3 row row-cols-5 py-5 my-5 border-top">
+          <div class="col">
+        
+            <p style="color:#4b6982" class="text-muted">© 2021</p>
+          </div>
       
-    </footer>
+          <div class="col"> <!-- Columna vacia para espacio-->
+          </div>
+      
+          <div class="col"> <!-- Columna vacia para espacio-->
+          </div>
+      
+          <div class="col"> <!-- Columna vacia para espacio-->
+          </div>
+      
+          <div class="col">
+            <h5 style="color:#4b6982">Section</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
+            </ul>
+          </div>
+        </footer>
+        
+      </footer>
+
+    </main>
+
+    
 
      
 </body>

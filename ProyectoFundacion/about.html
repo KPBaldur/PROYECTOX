@@ -11,87 +11,144 @@
       .card-text{
         color: black;
       }
+
+      body{
+        background-color: #4b6982;
+      }
+      header, main{
+        background-color: #70c6c7;
+      }
+
+      footer{
+        background-color: #b4ffd8;
+      }
+
+      .container{
+        color: black
+      }
+
+      button{
+        text-decoration:none;
+        padding: 4px; 
+        font-weight: 400; 
+        font-size: 20px; 
+        color:#ffff; 
+        background-color:#4b6982; 
+        border-radius: 6px; 
+        border: 2px solid #0016b0;
+      }
+
+      button:hover{
+        color: #1883ba;
+        background-color: #fff;
+      }
+
+      li{
+        color: #4b6982;
+      }
+
+      li:hover{
+        color: #fff;
+      }
+        
+
     </style>
 </head>
 <body class="d-flex h-100 text-center text-white bg-dark">
   <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
-    <header class="p-3 bg-dark text-white">
+    <header class="p-3 text-white">
         <div class="container">
-            <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+            <div  style="background-color: #b4ffd8; margin-left: 0px; margin-right: 0px;" class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
             <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
-                <svg class="bi me-2" width="40" height="32" role="img" aria-label="Bootstrap"><use xlink:href="#bootstrap"></use></svg>
             </a>
             
             <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
-                <li><a href="FundacionRescata.html" class="nav-link px-2 text-white">Inicio</a></li>
-                <li><a href="album.html" class="nav-link px-2 text-white">Album de Fotos</a></li>
-                <li><a href="#" class="nav-link px-2 text-secondary">Sobre Nosotros</a></li>
+                <li><a style="color: #1A374D;" href="FundacionRescata.html" class="nav-link px-2">Inicio</a></li>
+                <li><a style="color: #1A374D;" href="album.html" class="nav-link px-2">Album de Fotos</a></li>
+                <li><a style="color: #ccc;" href="#" class="nav-link px-2">Sobre Nosotros</a></li>
                 </ul>
             
                 <div class="text-end">
-                  <button type="button" class="btn btn-warning">Donaciones</button>
+                  <button type="button" >Donaciones</button>
                 </div>
-              </div>
             </div>
-          </header>
+          </div>
+    </header>
         
       <main class="px-3">
         <h1>Adoptame!</h1>
+        <img src="img/ong.png" alt="">
         <p class="lead">Nuestra nueva iniciativa para adoptar y entregar perros y gatos callejeros. 
         Nuestra motivacion es poder dar un hogar a cada uno de nuestros cachorros y mininos.</p>
+
+        <div class="px-3">
+          <h2>
+            Proyecto para Programacion Web
+          </h2>
+          <img src="img/DuocLogo.png" height="150">
+        </div>
+        
+        <div>
+          <h2>
+            Trabajo realizado por:
+          </h2>
+          
+          <div  style="background-color:#4b6982; margin-left: 400px; margin-right: 400px;">
+              <h3 class="px-3">
+                Josue Espinoza
+              </h3>
+          </div>
+          <br>
+          <div  style="background-color:#4b6982; margin-left: 400px; margin-right: 400px;">
+            <h3 class="px-3">
+              Julio Contese
+            </h3>
+        </div>
+           <br>
+           <div  style="background-color:#4b6982; margin-left: 400px; margin-right: 400px;">
+            <h3 class="px-3">
+              Kevin Pizarro
+            </h3>
+        </div>
+        </div>  
+        
+        <footer>
+          <footer class="row row-cols-5 py-5 my-5 border-top">
+            <div class="col">
+              <a href="/" class="d-flex align-items-center mb-3 link-dark text-decoration-none">
+              </a>
+              <p class="text-muted">© 2021</p>
+            </div>
+        
+            <div class="col">
+        
+            </div>
+        
+            <div class="col">
+          
+            </div>
+        
+            <div class="col">
+            </div>
+        
+            <div class="col">
+              <h5 >Section</h5>
+              <ul class="nav flex-column">
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
+              </ul>
+            </div>
+          </footer>
+        </footer>
+  
       </main>
 
       
     
-      <footer>
-        <footer class="row row-cols-5 py-5 my-5 border-top">
-          <div class="col">
-            <a href="/" class="d-flex align-items-center mb-3 link-dark text-decoration-none">
-              <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
-            </a>
-            <p class="text-muted">© 2021</p>
-          </div>
       
-          <div class="col">
-      
-          </div>
-      
-          <div class="col">
-            <h5>Section</h5>
-            <ul class="nav flex-column">
-              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
-              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
-              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
-              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
-              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
-            </ul>
-          </div>
-      
-          <div class="col">
-            <h5>Section</h5>
-            <ul class="nav flex-column">
-              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
-              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
-              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
-              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
-              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
-            </ul>
-          </div>
-      
-          <div class="col">
-            <h5>Section</h5>
-            <ul class="nav flex-column">
-              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
-              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
-              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
-              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
-              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
-            </ul>
-          </div>
-        </footer>
-        
-      </footer>
-
   </div>
 
   
